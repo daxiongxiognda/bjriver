@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = UIColor.redColor;
+    UIButton *butoon = [[UIButton alloc] init];
+    [self.view addSubview:butoon];
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
